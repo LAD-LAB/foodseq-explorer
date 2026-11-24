@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edible Atlas FoodSeq: Global Food Explorer</title>
+<meta name="description" content="Explore which foods people eat around the world: search thousands of records from published studies by food, place and source, and find the matching DNA reference sequences for dietary metabarcoding (trnL for plants, 12S for vertebrate animals, COI for invertebrates).">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2322344d'/%3E%3Cpath d='M6 7h3v18H6zM11 7h1.5v18H11zM15 7h4v18h-4zM21 7h1.5v18H21zM24 7h2v18h-2z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap topbar">
+    <a class="brand" href="#/" aria-label="Edible Atlas FoodSeq (home)">
+      <img class="brand-logo" src="assets/edible-atlas-logo.png" alt="Edible Atlas" height="34" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'brand-text',textContent:'EDIBLE ATLAS'}))">
+      <span class="brand-sub">FoodSeq</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" aria-label="Main">
+      <a href="#/explorer" data-nav="explorer">Explore</a>
+      <div class="navgroup">
+        <button type="button" class="navbtn" aria-expanded="false">Research tools</button>
+        <div class="navmenu">
+          <a href="#/identify" data-nav="identify">Identify a sequence</a>
+          <a href="#/database" data-nav="database">Reference database</a>
+          <a href="#/browse" data-nav="browse">Taxonomy browser</a>
+          <a href="#/foods" data-nav="foods">Food list coverage</a>
+        </div>
+      </div>
+      <div class="navgroup">
+        <button type="button" class="navbtn" aria-expanded="false">Data</button>
+        <div class="navmenu">
+          <a href="#/downloads" data-nav="downloads">Downloads</a>
+          <a href="#/sources" data-nav="sources">Sources</a>
+          <a href="#/cite" data-nav="cite">How to cite</a>
+        </div>
+      </div>
+      <div class="navgroup">
+        <button type="button" class="navbtn" aria-expanded="false">About</button>
+        <div class="navmenu">
+          <a href="#/about" data-nav="about">Methods and limitations</a>
+          <a href="https://edibleatlas.org/" rel="noopener" target="_blank">Edible Atlas website</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap" tabindex="-1">
+  <noscript><p class="notice">This site needs JavaScript to browse the database. The release files can still be downloaded from the <a href="downloads/">downloads folder</a>.</p></noscript>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap" id="footer"></div>
+</footer>
+
+<script src="data/core.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
